@@ -27,7 +27,7 @@ def getter
 end
 
 def clear
-  @arr = []
+  @@arr = []
 end
 
 end
