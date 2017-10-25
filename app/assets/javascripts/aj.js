@@ -4,7 +4,7 @@ $(document).on('turbolinks:load', function(){
 
     $.ajax ({
      type: 'GET',
-     url: "http://localhost:3001/new/getter",
+     url: "https://stormy-oasis-15628.herokuapp.com/new/getter",
      success: function(){
        location.reload();
      }
