@@ -1,0 +1,7 @@
+<ul>
+  <% if !@arr.empty? %>
+   <% @arr.each do |i| %>
+     <%= content_tag(:li , i , class:  %w(l-item)) %>
+   <% end %>
+  <% end %>
+</ul>
